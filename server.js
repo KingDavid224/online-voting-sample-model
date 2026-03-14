@@ -31,7 +31,7 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/votebox';
 mongoose.connect(MONGO_URI)
   .then(() => {
     console.log('✅  MongoDB connected:', MONGO_URI);
-    const PORT = process.env.PORT || 5000;
+    const PORT = process.env.PORT || 10000;
     app.listen(PORT, () => {
       console.log(`🚀  VoteBox server running → http://localhost:${PORT}`);
     });
