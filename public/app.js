@@ -1,5 +1,5 @@
 /* ── VoteBox Frontend App ──────────────────────── */
-const API = '/api';
+const API = 'http://localhost:5000/api';
 let currentUser = null;
 let currentToken = null;
 
